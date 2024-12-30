@@ -10,6 +10,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Text className="text-3xl py-10 font-rubik">This is good for estate</Text>
       <Link href={'/sign-in'}>SignIn</Link>
       <Link href={'/explore'}>Explore</Link>
       <Link href={'/profile'}>Profile</Link>
